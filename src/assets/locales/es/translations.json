@@ -1,0 +1,14 @@
+{
+  "loading": "Cargando datos de procesos…",
+  "noData": "Sin datos de procesos en este momento",
+
+  "col.application": "Aplicación",
+  "col.pid": "PID",
+  "col.username": "Nombre de usuario",
+  "col.startInstant": "Instante de inicio",
+  "col.totalCpuDuration": "Duración total en CPU (ms)",
+  "col.parentPid": "PID del padre",
+
+  "preview.title": "Visualización de Procesos",
+  "preview.description": "Muestra snapshots de los procesos del sistema en ejecución capturados periódicamente durante la sesión."
+}

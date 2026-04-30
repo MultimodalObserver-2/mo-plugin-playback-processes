@@ -1,0 +1,31 @@
+{
+  "id": "processes_visualization",
+  "name": "Processes Visualization",
+  "description": "Visualizes periodic snapshots of running system processes captured during a session.",
+  "version": "1.0.0",
+  "publisher": {
+    "id": "mo",
+    "name": "Multimodal Observer",
+    "url": ""
+  },
+  "repository": "",
+  "author": {
+    "name": "Camila Carabajal",
+    "email": "camila.carabajal@usach.cl"
+  },
+  "icon": {
+    "light": "assets/icons/light.svg",
+    "dark": "assets/icons/dark.svg"
+  },
+  "locales": "assets/locales",
+  "platform": {
+    "linux": true,
+    "windows": true,
+    "mac": true
+  },
+  "entryPoints": {
+    "mo.ui.renderer.plugin": "main.js",
+    "mo.ui.renderer.plugin.properties": "properties.js"
+  },
+  "target": "ui"
+}

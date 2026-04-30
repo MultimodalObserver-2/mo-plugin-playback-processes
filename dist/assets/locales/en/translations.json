@@ -1,0 +1,14 @@
+{
+  "loading": "Loading processes data…",
+  "noData": "No processes data at this point in time",
+
+  "col.application": "Application",
+  "col.pid": "PID",
+  "col.username": "Username",
+  "col.startInstant": "Start Instant",
+  "col.totalCpuDuration": "Total CPU Duration (ms)",
+  "col.parentPid": "Parent PID",
+
+  "preview.title": "Processes Visualization",
+  "preview.description": "Displays snapshots of running system processes captured periodically during the session."
+}
