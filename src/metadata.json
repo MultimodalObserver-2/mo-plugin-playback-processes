@@ -1,5 +1,5 @@
 {
-  "id": "processes_visualization",
+  "id": "processes-visualization",
   "name": "Processes Visualization",
   "description": "Visualizes periodic snapshots of running system processes captured during a session.",
   "version": "1.0.0",
