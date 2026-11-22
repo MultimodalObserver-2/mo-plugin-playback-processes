@@ -38,7 +38,7 @@ interface Column {
 }
 
 export function ProcessesView({ controls, context }: PluginViewProps) {
-    const { t } = useTranslation("mo-processes_visualization");
+    const { t } = useTranslation("interaction-lab-processes-visualization");
 
     const [snapshots, setSnapshots] = useState<Snapshot[]>([]);
     const [current, setCurrent] = useState<Snapshot | null>(null);

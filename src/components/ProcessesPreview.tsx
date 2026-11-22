@@ -2,7 +2,7 @@ import { useTranslation } from "mo-sdk";
 
 
 export function ProcessesPreview() {
-    const { t } = useTranslation("mo-processes_visualization");
+    const { t } = useTranslation("interaction-lab-processes-visualization");
 
     const COLUMNS = [
         t("col.application"),

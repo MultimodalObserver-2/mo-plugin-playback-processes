@@ -21,7 +21,7 @@ function ProcessesView({
 }) {
   const {
     t
-  } = useTranslation("mo-processes_visualization");
+  } = useTranslation("interaction-lab-processes-visualization");
   const [snapshots, setSnapshots] = useState([]);
   const [current, setCurrent] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -219,7 +219,7 @@ const jsxs = jsxRuntimeExports.jsxs;
 function ProcessesPreview() {
   const {
     t
-  } = useTranslation("mo-processes_visualization");
+  } = useTranslation("interaction-lab-processes-visualization");
   const COLUMNS = [t("col.application"), t("col.pid"), t("col.username"), t("col.startInstant"), t("col.totalCpuDuration"), t("col.parentPid")];
   const SAMPLE_ROWS = [["node.exe", "1234", "user", "2024-01-01T10:00:00Z", "1520", "980"], ["chrome.exe", "5678", "user", "2024-01-01T09:00:00Z", "8430", "1"], ["code.exe", "9012", "user", "2024-01-01T10:05:00Z", "3210", "1"]];
   return /* @__PURE__ */ jsxs("div", {
